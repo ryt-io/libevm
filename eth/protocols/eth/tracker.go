@@ -19,7 +19,7 @@ package eth
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/p2p/tracker"
+	"github.com/ryt-io/ryt-v2/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for eth/66 and newer request times.

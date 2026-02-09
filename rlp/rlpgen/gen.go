@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/ava-labs/libevm/rlp/internal/rlpstruct"
+	"github.com/ryt-io/ryt-v2/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/ethdb/memorydb"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/ethdb/memorydb"
 )
 
 func copyDestructs(destructs map[common.Hash]struct{}) map[common.Hash]struct{} {

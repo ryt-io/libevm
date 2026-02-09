@@ -19,9 +19,9 @@ package core
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 func (st *StateTransition) rulesHooks() params.RulesHooks {

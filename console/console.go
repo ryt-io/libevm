@@ -30,12 +30,12 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/ava-labs/libevm/console/prompt"
-	"github.com/ava-labs/libevm/internal/jsre"
-	"github.com/ava-labs/libevm/internal/jsre/deps"
-	"github.com/ava-labs/libevm/internal/web3ext"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2/console/prompt"
+	"github.com/ryt-io/ryt-v2/internal/jsre"
+	"github.com/ryt-io/ryt-v2/internal/jsre/deps"
+	"github.com/ryt-io/ryt-v2/internal/web3ext"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

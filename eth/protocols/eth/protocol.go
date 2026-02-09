@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/forkid"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/forkid"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/common/math"
 )
 
 func TestBytesPadding(t *testing.T) {

@@ -17,8 +17,8 @@
 package types
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
 )
 
 //go:generate go run ../../rlp/rlpgen -type Log -out gen_log_rlp.go

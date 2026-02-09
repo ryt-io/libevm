@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/libevm/cmd/devp2p/internal/v5test"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/internal/flags"
-	"github.com/ava-labs/libevm/p2p/discover"
+	"github.com/ryt-io/ryt-v2/cmd/devp2p/internal/v5test"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/internal/flags"
+	"github.com/ryt-io/ryt-v2/p2p/discover"
 	"github.com/urfave/cli/v2"
 )
 

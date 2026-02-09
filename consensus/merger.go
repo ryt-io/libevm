@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

@@ -22,14 +22,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/prque"
-	"github.com/ava-labs/libevm/consensus"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/eth/protocols/eth"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/metrics"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/prque"
+	"github.com/ryt-io/ryt-v2/consensus"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/ryt-v2/trie"
 )
 
 const (

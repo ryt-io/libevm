@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/log"
 )
 
 const (

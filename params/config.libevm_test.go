@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/libevm/internal/libevm/pseudo"
-	"github.com/ava-labs/libevm/libevm"
-	"github.com/ava-labs/libevm/libevm/register"
+	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
+	"github.com/ryt-io/ryt-v2/libevm"
+	"github.com/ryt-io/ryt-v2/libevm/register"
 )
 
 type rawJSON struct {

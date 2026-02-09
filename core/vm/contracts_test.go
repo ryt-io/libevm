@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

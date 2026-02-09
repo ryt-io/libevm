@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // ProofSet stores a set of trie nodes. It implements trie.Database and can also

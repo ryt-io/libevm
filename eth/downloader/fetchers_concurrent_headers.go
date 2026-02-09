@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/eth/protocols/eth"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
+	"github.com/ryt-io/ryt-v2/log"
 )
 
 // headerQueue implements typedQueue and is a type adapter between the generic

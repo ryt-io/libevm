@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	// Testing from outside the package to guarantee usage of the public API only.
-	. "github.com/ava-labs/libevm/libevm"
+	. "github.com/ryt-io/ryt-v2/libevm"
 )
 
 func TestExtrasLock(t *testing.T) {

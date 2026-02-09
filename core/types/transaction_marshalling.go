@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/crypto/kzg4844"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/crypto/kzg4844"
 	"github.com/holiman/uint256"
 )
 

@@ -24,12 +24,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/libevm/ethtest"
-	"github.com/ava-labs/libevm/trie"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/libevm/ethtest"
+	"github.com/ryt-io/ryt-v2/trie"
+	"github.com/ryt-io/ryt-v2/triedb"
 )
 
 func TestStateAccountExtraViaTrieStorage(t *testing.T) {

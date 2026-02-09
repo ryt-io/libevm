@@ -19,8 +19,8 @@ package simulated
 import (
 	"math/big"
 
-	"github.com/ava-labs/libevm/eth/ethconfig"
-	"github.com/ava-labs/libevm/node"
+	"github.com/ryt-io/ryt-v2/eth/ethconfig"
+	"github.com/ryt-io/ryt-v2/node"
 )
 
 // WithBlockGasLimit configures the simulated backend to target a specific gas limit

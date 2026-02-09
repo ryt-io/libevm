@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/libevm/accounts/keystore"
-	"github.com/ava-labs/libevm/cmd/utils"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/accounts/keystore"
+	"github.com/ryt-io/ryt-v2/cmd/utils"
+	"github.com/ryt-io/ryt-v2/crypto"
 	"github.com/urfave/cli/v2"
 )
 

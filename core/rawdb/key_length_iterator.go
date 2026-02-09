@@ -16,7 +16,7 @@
 
 package rawdb
 
-import "github.com/ava-labs/libevm/ethdb"
+import "github.com/ryt-io/ryt-v2/ethdb"
 
 // KeyLengthIterator is a wrapper for a database iterator that ensures only key-value pairs
 // with a specific key length will be returned.

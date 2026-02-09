@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/ava-labs/libevm/beacon/params"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
+	"github.com/ryt-io/ryt-v2/beacon/params"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
 	bls "github.com/protolambda/bls12-381-util"
 )
 

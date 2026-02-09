@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/trie/trienode"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/trie/trienode"
 )
 
 // committer is the tool used for the trie Commit operation. The committer will

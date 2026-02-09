@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

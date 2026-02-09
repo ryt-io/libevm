@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/params"
 	"golang.org/x/exp/slices"
 )
 

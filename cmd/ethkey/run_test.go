@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/internal/cmdtest"
-	"github.com/ava-labs/libevm/internal/reexec"
+	"github.com/ryt-io/ryt-v2/internal/cmdtest"
+	"github.com/ryt-io/ryt-v2/internal/reexec"
 )
 
 type testEthkey struct {

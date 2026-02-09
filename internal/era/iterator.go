@@ -21,8 +21,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // Iterator wraps RawIterator and returns decoded Era1 entries.

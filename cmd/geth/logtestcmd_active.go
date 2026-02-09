@@ -25,8 +25,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/log"
 	"github.com/holiman/uint256"
 	"github.com/urfave/cli/v2"
 )

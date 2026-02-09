@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/p2p/enr"
-	"github.com/ava-labs/libevm/p2p/netutil"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/ryt-v2/p2p/netutil"
 )
 
 const (

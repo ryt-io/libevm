@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 var (

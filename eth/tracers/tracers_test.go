@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/eth/tracers/logger"
-	"github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/tests"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/eth/tracers/logger"
+	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/ryt-v2/tests"
 )
 
 func BenchmarkTransactionTrace(b *testing.B) {

@@ -26,10 +26,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/internal/libevm/pseudo"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // A BlockNonce is a 64-bit hash which proves (combined with the

@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/consensus/ethash"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/consensus/ethash"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/ryt-v2/trie"
 	"golang.org/x/exp/slog"
 )
 

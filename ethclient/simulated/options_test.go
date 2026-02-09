@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 // Tests that the simulator starts with the initial gas limit in the genesis block,

@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/eth/protocols/eth"
-	"github.com/ava-labs/libevm/p2p"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
+	"github.com/ryt-io/ryt-v2/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

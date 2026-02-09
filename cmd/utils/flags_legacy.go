@@ -19,8 +19,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/eth/ethconfig"
-	"github.com/ava-labs/libevm/internal/flags"
+	"github.com/ryt-io/ryt-v2/eth/ethconfig"
+	"github.com/ryt-io/ryt-v2/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

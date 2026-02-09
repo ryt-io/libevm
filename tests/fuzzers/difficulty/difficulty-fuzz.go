@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/libevm/consensus/ethash"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/consensus/ethash"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 type fuzzer struct {

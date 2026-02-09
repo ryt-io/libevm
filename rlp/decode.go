@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/libevm/rlp/internal/rlpstruct"
+	"github.com/ryt-io/ryt-v2/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

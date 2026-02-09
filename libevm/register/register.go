@@ -20,7 +20,7 @@ package register
 import (
 	"errors"
 
-	"github.com/ava-labs/libevm/libevm/testonly"
+	"github.com/ryt-io/ryt-v2/libevm/testonly"
 )
 
 // An AtMostOnce allows zero or one registration of a T.

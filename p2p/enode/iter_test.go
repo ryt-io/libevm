@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/p2p/enr"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

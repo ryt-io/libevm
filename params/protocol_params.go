@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 const (

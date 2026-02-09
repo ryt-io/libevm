@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/beacon/params"
-	"github.com/ava-labs/libevm/beacon/types"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/lru"
-	"github.com/ava-labs/libevm/common/mclock"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/beacon/params"
+	"github.com/ryt-io/ryt-v2/beacon/types"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/lru"
+	"github.com/ryt-io/ryt-v2/common/mclock"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/ryt-v2/log"
 )
 
 var (

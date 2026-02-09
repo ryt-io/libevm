@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/ava-labs/libevm/rlp"
+import "github.com/ryt-io/ryt-v2/rlp"
 import "io"
 
 func (obj *Header) encodeRLP(_w io.Writer) error {

@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/libevm/beacon/merkle"
-	"github.com/ava-labs/libevm/beacon/params"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/beacon/merkle"
+	"github.com/ryt-io/ryt-v2/beacon/params"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // BootstrapData contains a sync committee where light sync can be started,

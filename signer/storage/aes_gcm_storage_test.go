@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/log"
 	"github.com/mattn/go-colorable"
 	"golang.org/x/exp/slog"
 )

@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/consensus"
-	"github.com/ava-labs/libevm/consensus/ethash"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/ryt-v2/consensus"
+	"github.com/ryt-io/ryt-v2/consensus/ethash"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/ryt-v2/triedb"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/p2p/netutil"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

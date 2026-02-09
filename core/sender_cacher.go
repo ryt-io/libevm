@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 // SenderCacher is a concurrent transaction sender recoverer and cacher.

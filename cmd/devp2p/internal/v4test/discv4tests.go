@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/internal/utesting"
-	"github.com/ava-labs/libevm/p2p/discover/v4wire"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/internal/utesting"
+	"github.com/ryt-io/ryt-v2/p2p/discover/v4wire"
 )
 
 const (

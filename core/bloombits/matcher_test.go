@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 const testSectionSize = 4096

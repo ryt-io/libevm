@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/p2p/enode"
-	"github.com/ava-labs/libevm/p2p/enr"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
 	"github.com/urfave/cli/v2"
 )
 

@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

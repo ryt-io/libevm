@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 func TestCalcExcessBlobGas(t *testing.T) {

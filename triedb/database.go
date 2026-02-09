@@ -19,16 +19,16 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/libevm/stateconf"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/trie"
-	"github.com/ava-labs/libevm/trie/trienode"
-	"github.com/ava-labs/libevm/trie/triestate"
-	"github.com/ava-labs/libevm/triedb/database"
-	"github.com/ava-labs/libevm/triedb/hashdb"
-	"github.com/ava-labs/libevm/triedb/pathdb"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/ryt-v2/libevm/stateconf"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/trie"
+	"github.com/ryt-io/ryt-v2/trie/trienode"
+	"github.com/ryt-io/ryt-v2/trie/triestate"
+	"github.com/ryt-io/ryt-v2/triedb/database"
+	"github.com/ryt-io/ryt-v2/triedb/hashdb"
+	"github.com/ryt-io/ryt-v2/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

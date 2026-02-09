@@ -22,12 +22,12 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/libevm"
-	"github.com/ava-labs/libevm/libevm/options"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/libevm"
+	"github.com/ryt-io/ryt-v2/libevm/options"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 var _ PrecompileEnvironment = (*environment)(nil)

@@ -21,9 +21,9 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/event"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/event"
 )
 
 // A closeableTestBackend tracks all subscriptions that it produces, allowing

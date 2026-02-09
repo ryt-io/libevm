@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

@@ -19,7 +19,7 @@ package options_test
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/libevm/options"
+	"github.com/ryt-io/ryt-v2/libevm/options"
 )
 
 // config is an arbitrary type to be configured with [options.Option] values.

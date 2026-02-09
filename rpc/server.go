@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/log"
 )
 
 const MetadataApi = "rpc"

@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/libevm"
-	"github.com/ava-labs/libevm/libevm/register"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/libevm"
+	"github.com/ryt-io/ryt-v2/libevm/register"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 // RegisterHooks registers the Hooks. It is expected to be called in an `init()`

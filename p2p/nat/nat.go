@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

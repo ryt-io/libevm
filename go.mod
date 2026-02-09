@@ -1,4 +1,4 @@
-module github.com/ava-labs/libevm
+module github.com/ryt-io/ryt-v2
 
 go 1.24.8
 

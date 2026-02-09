@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

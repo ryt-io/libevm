@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

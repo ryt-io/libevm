@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/libevm/internal/debug"
-	"github.com/ava-labs/libevm/internal/flags"
-	"github.com/ava-labs/libevm/p2p/enode"
+	"github.com/ryt-io/ryt-v2/internal/debug"
+	"github.com/ryt-io/ryt-v2/internal/flags"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

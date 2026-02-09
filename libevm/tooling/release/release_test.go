@@ -32,7 +32,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 func TestMain(m *testing.M) {

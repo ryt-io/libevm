@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/ava-labs/libevm/metrics"
+import "github.com/ryt-io/ryt-v2/metrics"
 
 // Metrics in generation
 var (

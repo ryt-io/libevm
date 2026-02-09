@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/trie/trienode"
-	"github.com/ava-labs/libevm/trie/utils"
-	"github.com/ava-labs/libevm/triedb/database"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/ryt-v2/trie/trienode"
+	"github.com/ryt-io/ryt-v2/trie/utils"
+	"github.com/ryt-io/ryt-v2/triedb/database"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 )

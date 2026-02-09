@@ -27,17 +27,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/consensus/misc/eip1559"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/eth/filters"
-	"github.com/ava-labs/libevm/internal/ethapi"
-	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/ryt-v2/consensus/misc/eip1559"
+	"github.com/ryt-io/ryt-v2/core/state"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/eth/filters"
+	"github.com/ryt-io/ryt-v2/internal/ethapi"
+	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/ryt-v2/rpc"
 )
 
 var (

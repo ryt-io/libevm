@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

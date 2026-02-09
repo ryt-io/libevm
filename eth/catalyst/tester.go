@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/eth"
-	"github.com/ava-labs/libevm/eth/downloader"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/node"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/eth"
+	"github.com/ryt-io/ryt-v2/eth/downloader"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

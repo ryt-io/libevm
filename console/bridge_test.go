@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/ava-labs/libevm/internal/jsre"
+	"github.com/ryt-io/ryt-v2/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

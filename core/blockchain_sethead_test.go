@@ -27,16 +27,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/consensus/ethash"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/triedb"
-	"github.com/ava-labs/libevm/triedb/hashdb"
-	"github.com/ava-labs/libevm/triedb/pathdb"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/consensus/ethash"
+	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/ryt-v2/core/state"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/ryt-v2/triedb"
+	"github.com/ryt-io/ryt-v2/triedb/hashdb"
+	"github.com/ryt-io/ryt-v2/triedb/pathdb"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

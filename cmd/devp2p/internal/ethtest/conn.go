@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/eth/protocols/eth"
-	"github.com/ava-labs/libevm/eth/protocols/snap"
-	"github.com/ava-labs/libevm/p2p"
-	"github.com/ava-labs/libevm/p2p/rlpx"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
+	"github.com/ryt-io/ryt-v2/eth/protocols/snap"
+	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/ryt-v2/p2p/rlpx"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 var (

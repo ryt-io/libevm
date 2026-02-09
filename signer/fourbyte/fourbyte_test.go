@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ava-labs/libevm/accounts/abi"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/accounts/abi"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

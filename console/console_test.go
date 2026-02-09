@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/console/prompt"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/eth"
-	"github.com/ava-labs/libevm/eth/ethconfig"
-	"github.com/ava-labs/libevm/internal/jsre"
-	"github.com/ava-labs/libevm/miner"
-	"github.com/ava-labs/libevm/node"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/console/prompt"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/eth"
+	"github.com/ryt-io/ryt-v2/eth/ethconfig"
+	"github.com/ryt-io/ryt-v2/internal/jsre"
+	"github.com/ryt-io/ryt-v2/miner"
+	"github.com/ryt-io/ryt-v2/node"
 )
 
 const (

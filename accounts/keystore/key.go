@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ava-labs/libevm/accounts"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/accounts"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/crypto"
 	"github.com/google/uuid"
 )
 

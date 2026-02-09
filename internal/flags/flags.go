@@ -28,7 +28,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/ryt-v2/common/math"
 	"github.com/urfave/cli/v2"
 )
 

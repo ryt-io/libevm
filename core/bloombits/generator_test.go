@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/event"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

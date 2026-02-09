@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/ava-labs/libevm/common/hexutil"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

@@ -44,7 +44,7 @@ jobs:
             echo "MODULE_SUFFIX=$(go list -m | cut -b 12-)" >> "$GITHUB_OUTPUT"; # Strip github.com/
 
       - name: Validate Go module
-        if: ${{ steps.go.outputs.MODULE != 'github.com/ava-labs/libevm' && steps.go.outputs.MODULE != 'github.com/ethereum/go-ethereum' }}
+        if: ${{ steps.go.outputs.MODULE != 'github.com/ryt-io/ryt-v2' && steps.go.outputs.MODULE != 'github.com/ethereum/go-ethereum' }}
         run: echo "Unexpected Go module ${{ steps.go.outputs.MODULE }}" && exit 1;
 
       - name: Set variables

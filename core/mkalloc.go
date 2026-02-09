@@ -32,9 +32,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/rlp"
 	"golang.org/x/exp/slices"
 )
 

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/internal/testlog"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/p2p/discover/v5wire"
-	"github.com/ava-labs/libevm/p2p/enode"
-	"github.com/ava-labs/libevm/p2p/enr"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/internal/testlog"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/p2p/discover/v5wire"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/ryt-v2/rlp"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )

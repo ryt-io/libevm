@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/accounts/abi/bind"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 var _ bind.ContractBackend = (Client)(nil)

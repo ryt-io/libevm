@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/accounts/keystore"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/accounts/keystore"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
 )
 
 // Tests that the account management snippets work correctly.

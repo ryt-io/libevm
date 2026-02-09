@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/internal/testlog"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/p2p/discover/v4wire"
-	"github.com/ava-labs/libevm/p2p/enode"
-	"github.com/ava-labs/libevm/p2p/enr"
+	"github.com/ryt-io/ryt-v2/internal/testlog"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/p2p/discover/v4wire"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
 )
 
 // shared test variables

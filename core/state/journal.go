@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 	"github.com/holiman/uint256"
 )
 

@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/internal/reexec"
+	"github.com/ryt-io/ryt-v2/internal/reexec"
 )
 
 func runSelf(args ...string) ([]byte, error) {

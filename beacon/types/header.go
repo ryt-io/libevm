@@ -21,9 +21,9 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/ava-labs/libevm/beacon/merkle"
-	"github.com/ava-labs/libevm/beacon/params"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/beacon/merkle"
+	"github.com/ryt-io/ryt-v2/beacon/params"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Header -field-override headerMarshaling -out gen_header_json.go

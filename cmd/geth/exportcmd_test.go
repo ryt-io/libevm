@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // TestExport does a basic test of "geth export", exporting the test-genesis.

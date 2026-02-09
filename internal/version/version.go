@@ -23,10 +23,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
-const ourPath = "github.com/ava-labs/libevm" // Path to our module
+const ourPath = "github.com/ryt-io/ryt-v2" // Path to our module
 
 // These variables are set at build-time by the linker when the build is
 // done by build/ci.go.

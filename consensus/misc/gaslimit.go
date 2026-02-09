@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/ryt-v2/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

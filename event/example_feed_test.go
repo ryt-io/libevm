@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/event"
+	"github.com/ryt-io/ryt-v2/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

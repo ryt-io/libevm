@@ -34,12 +34,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ava-labs/libevm/internal/reexec"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/node"
-	"github.com/ava-labs/libevm/p2p"
-	"github.com/ava-labs/libevm/p2p/enode"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2/internal/reexec"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/node"
+	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/ryt-v2/rpc"
 	"github.com/gorilla/websocket"
 	"golang.org/x/exp/slog"
 )

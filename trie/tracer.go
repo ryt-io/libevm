@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

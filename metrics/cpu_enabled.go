@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

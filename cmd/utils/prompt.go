@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/console/prompt"
+	"github.com/ryt-io/ryt-v2/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

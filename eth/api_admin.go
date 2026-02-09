@@ -24,9 +24,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // AdminAPI is the collection of Ethereum full node related APIs for node

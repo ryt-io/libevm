@@ -17,8 +17,8 @@
 package snapshot
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/ethdb"
 )
 
 // holdableIterator is a wrapper of underlying database iterator. It extends

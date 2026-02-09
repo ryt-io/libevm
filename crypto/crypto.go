@@ -29,9 +29,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/ryt-v2/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ava-labs/libevm/p2p/enr"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/ryt-v2/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

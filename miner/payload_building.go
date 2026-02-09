@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/beacon/engine"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/beacon/engine"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 // BuildPayloadArgs contains the provided parameters for building payload.

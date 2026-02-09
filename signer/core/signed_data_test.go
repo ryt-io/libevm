@@ -27,13 +27,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/accounts/keystore"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/signer/core"
-	"github.com/ava-labs/libevm/signer/core/apitypes"
+	"github.com/ryt-io/ryt-v2/accounts/keystore"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/signer/core"
+	"github.com/ryt-io/ryt-v2/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/event"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/p2p"
-	"github.com/ava-labs/libevm/p2p/enode"
-	"github.com/ava-labs/libevm/p2p/simulations/adapters"
+	"github.com/ryt-io/ryt-v2/event"
+	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/ryt-v2/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

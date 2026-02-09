@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/crypto"
 )
 
 // UNSAFEDeterministicPrivateKey returns a new [crypto.S256] private key,

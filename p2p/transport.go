@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/bitutil"
-	"github.com/ava-labs/libevm/metrics"
-	"github.com/ava-labs/libevm/p2p/rlpx"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/bitutil"
+	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/ryt-v2/p2p/rlpx"
+	"github.com/ryt-io/ryt-v2/rlp"
 )
 
 const (

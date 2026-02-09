@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/libevm/accounts"
-	"github.com/ava-labs/libevm/accounts/external"
-	"github.com/ava-labs/libevm/accounts/keystore"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/accounts"
+	"github.com/ryt-io/ryt-v2/accounts/external"
+	"github.com/ryt-io/ryt-v2/accounts/keystore"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/ryt-v2/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

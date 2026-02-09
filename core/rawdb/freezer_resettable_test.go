@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/ryt-v2/ethdb"
 )
 
 func TestResetFreezer(t *testing.T) {

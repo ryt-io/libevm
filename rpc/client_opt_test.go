@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2/rpc"
 )
 
 // This example configures a HTTP-based RPC client with two options - one setting the

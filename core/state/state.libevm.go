@@ -17,9 +17,9 @@
 package state
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
 )
 
 // GetExtra returns the extra payload from the [types.StateAccount] associated

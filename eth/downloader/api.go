@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/core"
-	"github.com/ava-labs/libevm/event"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2"
+	"github.com/ryt-io/ryt-v2/core"
+	"github.com/ryt-io/ryt-v2/event"
+	"github.com/ryt-io/ryt-v2/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

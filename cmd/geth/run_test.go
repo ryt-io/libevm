@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/internal/cmdtest"
-	"github.com/ava-labs/libevm/internal/reexec"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/ryt-v2/internal/cmdtest"
+	"github.com/ryt-io/ryt-v2/internal/reexec"
+	"github.com/ryt-io/ryt-v2/rpc"
 )
 
 type testgeth struct {

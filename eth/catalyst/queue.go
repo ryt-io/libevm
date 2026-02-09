@@ -19,10 +19,10 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/ava-labs/libevm/beacon/engine"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/miner"
+	"github.com/ryt-io/ryt-v2/beacon/engine"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/ryt-v2/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

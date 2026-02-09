@@ -1,10 +1,10 @@
 # libevm
 
 [![API Reference](
-https://pkg.go.dev/badge/github.com/ava-labs/libevm
-)](https://pkg.go.dev/github.com/ava-labs/libevm?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ava-labs/libevm)](https://goreportcard.com/report/github.com/ava-labs/libevm)
-[![Go Build & Test](https://github.com/ava-labs/libevm/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/ava-labs/libevm/actions/workflows/go.yml)
+https://pkg.go.dev/badge/github.com/ryt-io/ryt-v2
+)](https://pkg.go.dev/github.com/ryt-io/ryt-v2?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ryt-io/ryt-v2)](https://goreportcard.com/report/github.com/ryt-io/ryt-v2)
+[![Go Build & Test](https://github.com/ryt-io/ryt-v2/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/ryt-io/ryt-v2/actions/workflows/go.yml)
 
 The Ethereum Virtual Machine (EVM) as a library, `libevm` is a fork of [`geth`](https://github.com/ethereum/go-ethereum) with
 injectable configuration directives. Although designed to support the Avalanche [C-Chain](https://github.com/ava-labs/coreth) and
@@ -370,4 +370,4 @@ The libevm (i) _additions_ to the go-ethereum library (i.e. all code in files wi
 be it a directory or file name); and (ii) _modifications_ to existing go-ethereum code; are licensed under the
 [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html),
 also included in our repository in the `COPYING.LESSER` file. A comprehensive outline of _modifications_ is
-produced by the [libevm delta workflow](https://github.com/ava-labs/libevm/actions/workflows/libevm-delta.yml).
+produced by the [libevm delta workflow](https://github.com/ryt-io/ryt-v2/actions/workflows/libevm-delta.yml).

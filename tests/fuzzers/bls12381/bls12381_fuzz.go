@@ -30,8 +30,8 @@ import (
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto/bls12381"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/crypto/bls12381"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

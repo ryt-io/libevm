@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/eth"
-	"github.com/ava-labs/libevm/eth/catalyst"
-	"github.com/ava-labs/libevm/eth/ethconfig"
-	"github.com/ava-labs/libevm/internal/utesting"
-	"github.com/ava-labs/libevm/node"
-	"github.com/ava-labs/libevm/p2p"
+	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/ryt-v2/eth"
+	"github.com/ryt-io/ryt-v2/eth/catalyst"
+	"github.com/ryt-io/ryt-v2/eth/ethconfig"
+	"github.com/ryt-io/ryt-v2/internal/utesting"
+	"github.com/ryt-io/ryt-v2/node"
+	"github.com/ryt-io/ryt-v2/p2p"
 )
 
 func makeJWTSecret() (string, [32]byte, error) {
