@@ -1,4 +1,4 @@
-module github.com/ryt-io/ryt-v2
+module github.com/ryt-io/libevm
 
 go 1.24.8
 

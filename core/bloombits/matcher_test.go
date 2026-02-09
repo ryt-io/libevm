@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 const testSectionSize = 4096

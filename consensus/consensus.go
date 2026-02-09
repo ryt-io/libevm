@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/state"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

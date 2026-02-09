@@ -17,8 +17,8 @@
 package rawdb
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/libevm/options"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm/options"
 )
 
 // An InspectDatabaseOption configures the behaviour of [InspectDatabase].

@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

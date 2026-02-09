@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

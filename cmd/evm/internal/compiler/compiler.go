@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/core/asm"
+	"github.com/ryt-io/libevm/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

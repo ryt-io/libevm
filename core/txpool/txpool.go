@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/event"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // TxStatus is the current status of a transaction as seen by the pool.

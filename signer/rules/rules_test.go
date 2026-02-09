@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/internal/ethapi"
-	"github.com/ryt-io/ryt-v2/signer/core"
-	"github.com/ryt-io/ryt-v2/signer/core/apitypes"
-	"github.com/ryt-io/ryt-v2/signer/storage"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/internal/ethapi"
+	"github.com/ryt-io/libevm/signer/core"
+	"github.com/ryt-io/libevm/signer/core/apitypes"
+	"github.com/ryt-io/libevm/signer/storage"
 )
 
 const JS = `

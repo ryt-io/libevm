@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/event"
+	"github.com/ryt-io/libevm/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

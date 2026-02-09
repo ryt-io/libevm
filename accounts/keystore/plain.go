@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 type keyStorePlain struct {

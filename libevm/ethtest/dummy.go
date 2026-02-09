@@ -17,10 +17,10 @@
 package ethtest
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/consensus"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/consensus"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // DummyChainContext returns a dummy that returns [DummyEngine] when its

@@ -28,7 +28,7 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 	"github.com/stretchr/testify/require"
 )
 

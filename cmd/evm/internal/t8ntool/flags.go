@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/tests"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/tests"
 	"github.com/urfave/cli/v2"
 )
 

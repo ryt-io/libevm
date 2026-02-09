@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ryt-io/ryt-v2/crypto"
+	ethcrypto "github.com/ryt-io/libevm/crypto"
 )
 
 var (

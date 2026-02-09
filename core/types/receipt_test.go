@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/holiman/uint256"
 	"github.com/kylelemons/godebug/diff"
 )

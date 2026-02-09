@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/accounts/keystore"
-	"github.com/ryt-io/ryt-v2/cmd/utils"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/accounts/keystore"
+	"github.com/ryt-io/libevm/cmd/utils"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/log"
 	"github.com/urfave/cli/v2"
 )
 

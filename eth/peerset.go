@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
-	"github.com/ryt-io/ryt-v2/eth/protocols/snap"
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/eth/protocols/eth"
+	"github.com/ryt-io/libevm/eth/protocols/snap"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 var (

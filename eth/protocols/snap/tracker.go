@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/ryt-io/ryt-v2/p2p/tracker"
+	"github.com/ryt-io/libevm/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

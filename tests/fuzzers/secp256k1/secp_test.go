@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/ryt-io/ryt-v2/crypto/secp256k1"
+	"github.com/ryt-io/libevm/crypto/secp256k1"
 )
 
 func TestFuzzer(t *testing.T) {

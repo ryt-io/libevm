@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

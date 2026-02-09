@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

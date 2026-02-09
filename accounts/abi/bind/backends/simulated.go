@@ -19,9 +19,9 @@ package backends
 import (
 	"context"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/ethclient/simulated"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethclient/simulated"
 )
 
 // SimulatedBackend is a simulated blockchain.

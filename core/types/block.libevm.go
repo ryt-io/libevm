@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // HeaderHooks are required for all types registered with [RegisterExtras] for

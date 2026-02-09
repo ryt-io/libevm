@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

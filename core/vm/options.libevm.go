@@ -16,7 +16,7 @@
 
 package vm
 
-import "github.com/ryt-io/ryt-v2/libevm/options"
+import "github.com/ryt-io/libevm/libevm/options"
 
 type callConfig struct {
 	unsafeCallerAddressProxying bool

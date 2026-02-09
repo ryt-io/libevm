@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/forkid"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/forkid"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

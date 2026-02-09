@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/eth"
-	"github.com/ryt-io/ryt-v2/eth/catalyst"
-	"github.com/ryt-io/ryt-v2/eth/ethconfig"
-	"github.com/ryt-io/ryt-v2/internal/utesting"
-	"github.com/ryt-io/ryt-v2/node"
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/eth"
+	"github.com/ryt-io/libevm/eth/catalyst"
+	"github.com/ryt-io/libevm/eth/ethconfig"
+	"github.com/ryt-io/libevm/internal/utesting"
+	"github.com/ryt-io/libevm/node"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 func makeJWTSecret() (string, [32]byte, error) {

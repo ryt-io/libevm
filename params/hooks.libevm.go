@@ -19,8 +19,8 @@ package params
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm"
 )
 
 // ChainConfigHooks are required for all types registered as [Extras] for

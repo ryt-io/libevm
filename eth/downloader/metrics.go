@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 var (

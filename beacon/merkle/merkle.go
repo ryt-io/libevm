@@ -22,8 +22,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 // Value represents either a 32 byte leaf value or hash node in a binary merkle tree/partial proof.

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
-	"github.com/ryt-io/ryt-v2/event"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/p2p/msgrate"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/eth/protocols/eth"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/p2p/msgrate"
 )
 
 const (

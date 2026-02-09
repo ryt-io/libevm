@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/metrics/internal"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics/internal"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 )
 

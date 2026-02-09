@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // transientStorage is a representation of EIP-1153 "Transient Storage".

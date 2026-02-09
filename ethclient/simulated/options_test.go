@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/params"
 )
 
 // Tests that the simulator starts with the initial gas limit in the genesis block,

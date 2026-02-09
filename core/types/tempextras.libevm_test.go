@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/libevm"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 type tempBlockBodyHooks struct {

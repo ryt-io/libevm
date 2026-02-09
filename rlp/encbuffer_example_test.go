@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 func ExampleEncoderBuffer() {

@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 // stubPrecompileEnvironment implements [vm.PrecompileEnvironment] for testing.

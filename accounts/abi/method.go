@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

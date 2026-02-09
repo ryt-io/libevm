@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
-	"github.com/ryt-io/ryt-v2/libevm/ethtest"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/libevm/libevm/ethtest"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 func TestRLPEquivalence(t *testing.T) {

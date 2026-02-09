@@ -26,10 +26,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

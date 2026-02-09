@@ -24,8 +24,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

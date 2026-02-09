@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

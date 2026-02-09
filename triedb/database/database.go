@@ -17,7 +17,7 @@
 package database
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // Reader wraps the Node method of a backing trie reader.

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

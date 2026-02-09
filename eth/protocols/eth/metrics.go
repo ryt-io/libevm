@@ -16,7 +16,7 @@
 
 package eth
 
-import "github.com/ryt-io/ryt-v2/metrics"
+import "github.com/ryt-io/libevm/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

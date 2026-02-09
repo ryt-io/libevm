@@ -17,13 +17,13 @@
 package triedb
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/trie/triestate"
-	"github.com/ryt-io/ryt-v2/triedb/database"
-	"github.com/ryt-io/ryt-v2/triedb/hashdb"
-	"github.com/ryt-io/ryt-v2/triedb/pathdb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/trie/triestate"
+	"github.com/ryt-io/libevm/triedb/database"
+	"github.com/ryt-io/libevm/triedb/hashdb"
+	"github.com/ryt-io/libevm/triedb/pathdb"
 )
 
 // BackendDB defines the intersection of methods shared by [hashdb.Database] and

@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/ryt-io/ryt-v2/accounts/abi"
+import "github.com/ryt-io/libevm/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -91,12 +91,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/accounts/abi/bind"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/event"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

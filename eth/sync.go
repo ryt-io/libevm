@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/txpool"
-	"github.com/ryt-io/ryt-v2/eth/downloader"
-	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/txpool"
+	"github.com/ryt-io/libevm/eth/downloader"
+	"github.com/ryt-io/libevm/eth/protocols/eth"
+	"github.com/ryt-io/libevm/log"
 )
 
 const (

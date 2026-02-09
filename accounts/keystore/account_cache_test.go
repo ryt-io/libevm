@@ -28,8 +28,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/common"
 	"golang.org/x/exp/slices"
 )
 

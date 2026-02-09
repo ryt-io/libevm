@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

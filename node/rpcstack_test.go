@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/internal/testlog"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/internal/testlog"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

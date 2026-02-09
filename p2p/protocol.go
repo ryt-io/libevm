@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

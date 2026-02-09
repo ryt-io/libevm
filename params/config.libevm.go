@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
-	"github.com/ryt-io/ryt-v2/libevm"
-	"github.com/ryt-io/ryt-v2/libevm/register"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm/register"
+	"github.com/ryt-io/libevm/log"
 )
 
 // Extras are arbitrary payloads to be added as extra fields in [ChainConfig]

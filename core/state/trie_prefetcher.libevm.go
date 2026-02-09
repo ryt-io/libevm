@@ -17,10 +17,10 @@
 package state
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/libevm/options"
-	"github.com/ryt-io/ryt-v2/libevm/sync"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm/options"
+	"github.com/ryt-io/libevm/libevm/sync"
+	"github.com/ryt-io/libevm/log"
 )
 
 // A PrefetcherOption configures behaviour of trie prefetching.

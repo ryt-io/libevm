@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

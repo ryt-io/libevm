@@ -17,11 +17,11 @@
 package trie
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/rlp"
-	"github.com/ryt-io/ryt-v2/trie/trienode"
-	"github.com/ryt-io/ryt-v2/triedb/database"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/rlp"
+	"github.com/ryt-io/libevm/trie/trienode"
+	"github.com/ryt-io/libevm/triedb/database"
 )
 
 // SecureTrie is the old name of StateTrie.

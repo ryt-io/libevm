@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 func TestCollectRuntimeMetrics(t *testing.T) {

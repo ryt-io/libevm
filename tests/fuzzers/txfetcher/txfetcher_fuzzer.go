@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/eth/fetcher"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/eth/fetcher"
 )
 
 var (

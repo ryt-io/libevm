@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
 )
 
 // TxIndexProgress is the struct describing the progress for transaction indexing.

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // Node is a wrapper which contains the encoded blob of the trie node and its

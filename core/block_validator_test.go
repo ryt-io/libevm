@@ -21,16 +21,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/consensus"
-	"github.com/ryt-io/ryt-v2/consensus/beacon"
-	"github.com/ryt-io/ryt-v2/consensus/clique"
-	"github.com/ryt-io/ryt-v2/consensus/ethash"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/consensus"
+	"github.com/ryt-io/libevm/consensus/beacon"
+	"github.com/ryt-io/libevm/consensus/clique"
+	"github.com/ryt-io/libevm/consensus/ethash"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

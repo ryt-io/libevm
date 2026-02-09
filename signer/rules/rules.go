@@ -24,11 +24,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ryt-io/ryt-v2/internal/ethapi"
-	"github.com/ryt-io/ryt-v2/internal/jsre/deps"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/signer/core"
-	"github.com/ryt-io/ryt-v2/signer/storage"
+	"github.com/ryt-io/libevm/internal/ethapi"
+	"github.com/ryt-io/libevm/internal/jsre/deps"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/signer/core"
+	"github.com/ryt-io/libevm/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

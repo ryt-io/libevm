@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/ryt-io/ryt-v2/internal/ethapi"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/internal/ethapi"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 type StdIOUI struct {

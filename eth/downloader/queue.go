@@ -26,13 +26,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/prque"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto/kzg4844"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/prque"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto/kzg4844"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/params"
 )
 
 const (

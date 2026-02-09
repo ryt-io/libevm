@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

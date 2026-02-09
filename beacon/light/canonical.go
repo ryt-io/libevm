@@ -20,10 +20,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common/lru"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common/lru"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // canonicalStore stores instances of the given type in a database and caches

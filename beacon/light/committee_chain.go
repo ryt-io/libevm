@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/beacon/params"
-	"github.com/ryt-io/ryt-v2/beacon/types"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/lru"
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/beacon/params"
+	"github.com/ryt-io/libevm/beacon/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/lru"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
 )
 
 var (

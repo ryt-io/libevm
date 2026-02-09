@@ -22,14 +22,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/prque"
-	"github.com/ryt-io/ryt-v2/consensus"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/trie"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/prque"
+	"github.com/ryt-io/libevm/consensus"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/eth/protocols/eth"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/trie"
 )
 
 const (

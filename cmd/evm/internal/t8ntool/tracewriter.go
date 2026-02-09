@@ -21,10 +21,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/eth/tracers"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/eth/tracers"
+	"github.com/ryt-io/libevm/log"
 )
 
 // traceWriter is an vm.EVMLogger which also holds an inner logger/tracer.

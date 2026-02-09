@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 	// To ensure that all methods are available to importing packages, this test
 	// is defined in package `rawdb_test` instead of `rawdb`.
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
 )
 
 // ExampleDatabaseStat demonstrates the method signatures of DatabaseStat, which

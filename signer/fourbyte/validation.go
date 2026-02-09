@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/signer/core/apitypes"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/signer/core/apitypes"
 )
 
 // ValidateTransaction does a number of checks on the supplied transaction, and

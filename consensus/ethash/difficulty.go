@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/holiman/uint256"
 )
 

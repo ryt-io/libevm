@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/console/prompt"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/eth"
-	"github.com/ryt-io/ryt-v2/eth/ethconfig"
-	"github.com/ryt-io/ryt-v2/internal/jsre"
-	"github.com/ryt-io/ryt-v2/miner"
-	"github.com/ryt-io/ryt-v2/node"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/console/prompt"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/eth"
+	"github.com/ryt-io/libevm/eth/ethconfig"
+	"github.com/ryt-io/libevm/internal/jsre"
+	"github.com/ryt-io/libevm/miner"
+	"github.com/ryt-io/libevm/node"
 )
 
 const (

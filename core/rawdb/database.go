@@ -26,13 +26,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/ethdb/leveldb"
-	"github.com/ryt-io/ryt-v2/ethdb/memorydb"
-	"github.com/ryt-io/ryt-v2/ethdb/pebble"
-	"github.com/ryt-io/ryt-v2/libevm/options"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/ethdb/leveldb"
+	"github.com/ryt-io/libevm/ethdb/memorydb"
+	"github.com/ryt-io/libevm/ethdb/pebble"
+	"github.com/ryt-io/libevm/libevm/options"
+	"github.com/ryt-io/libevm/log"
 	"github.com/olekukonko/tablewriter"
 )
 

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 type AddrLocker struct {

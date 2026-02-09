@@ -23,15 +23,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/state"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/libevm"
-	"github.com/ryt-io/ryt-v2/libevm/ethtest"
-	"github.com/ryt-io/ryt-v2/libevm/hookstest"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm/ethtest"
+	"github.com/ryt-io/libevm/libevm/hookstest"
 )
 
 func TestGuardIntegration(t *testing.T) {

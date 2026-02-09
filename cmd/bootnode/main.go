@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/cmd/utils"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/p2p/discover"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/nat"
-	"github.com/ryt-io/ryt-v2/p2p/netutil"
+	"github.com/ryt-io/libevm/cmd/utils"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/p2p/discover"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/nat"
+	"github.com/ryt-io/libevm/p2p/netutil"
 )
 
 func main() {

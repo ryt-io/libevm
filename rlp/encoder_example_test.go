@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 type MyCoolType struct {

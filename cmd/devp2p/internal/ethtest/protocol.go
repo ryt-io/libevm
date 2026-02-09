@@ -16,8 +16,8 @@
 package ethtest
 
 import (
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // Unexported devp2p message codes from p2p/peer.go.

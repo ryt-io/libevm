@@ -17,7 +17,7 @@
 package snap
 
 import (
-	metrics "github.com/ryt-io/ryt-v2/metrics"
+	metrics "github.com/ryt-io/libevm/metrics"
 )
 
 var (

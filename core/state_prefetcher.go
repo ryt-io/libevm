@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ryt-io/ryt-v2/consensus"
-	"github.com/ryt-io/ryt-v2/core/state"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/consensus"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

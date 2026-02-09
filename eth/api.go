@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.

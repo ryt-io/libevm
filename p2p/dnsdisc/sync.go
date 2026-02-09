@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

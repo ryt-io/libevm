@@ -22,7 +22,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 const (

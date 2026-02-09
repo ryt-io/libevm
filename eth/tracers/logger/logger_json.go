@@ -21,9 +21,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 type JSONLogger struct {

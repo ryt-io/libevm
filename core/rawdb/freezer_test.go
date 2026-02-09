@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/stretchr/testify/require"
 )
 

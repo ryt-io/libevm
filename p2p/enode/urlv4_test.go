@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p/enr"
 )
 
 func init() {

@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 // Compiler contains information about the parsed source

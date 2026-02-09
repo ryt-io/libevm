@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/ethdb/dbtest"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

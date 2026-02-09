@@ -16,7 +16,7 @@
 
 package vm
 
-import "github.com/ryt-io/ryt-v2/common"
+import "github.com/ryt-io/libevm/common"
 
 // StateDBRemainder defines methods not included in the geth definition of
 // [StateDB] but present on the concrete type and exposed for libevm

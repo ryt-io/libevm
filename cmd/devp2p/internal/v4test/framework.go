@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p/discover/v4wire"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p/discover/v4wire"
+	"github.com/ryt-io/libevm/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

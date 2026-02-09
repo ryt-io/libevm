@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 func nodeToBytes(n node) []byte {

@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/ethdb/memorydb"
-	"github.com/ryt-io/ryt-v2/trie"
-	"github.com/ryt-io/ryt-v2/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb/memorydb"
+	"github.com/ryt-io/libevm/trie"
+	"github.com/ryt-io/libevm/triedb"
 	"golang.org/x/exp/slices"
 )
 

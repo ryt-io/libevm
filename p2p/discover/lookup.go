@@ -21,7 +21,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

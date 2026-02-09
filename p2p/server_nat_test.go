@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/internal/testlog"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/internal/testlog"
+	"github.com/ryt-io/libevm/log"
 )
 
 func TestServerPortMapping(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/ryt-io/ryt-v2/rlp"
+const pathOfPackageRLP = "github.com/ryt-io/libevm/rlp"
 
 func main() {
 	var (

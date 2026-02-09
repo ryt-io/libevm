@@ -19,8 +19,8 @@ package native
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 // CaptureEnter implements the [vm.EVMLogger] hook for entering a new scope (via

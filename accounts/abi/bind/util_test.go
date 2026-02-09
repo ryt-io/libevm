@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi/bind"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/ethclient/simulated"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/ethclient/simulated"
+	"github.com/ryt-io/libevm/params"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

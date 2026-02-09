@@ -16,8 +16,8 @@
 package libevm_test
 
 import (
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/libevm"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/libevm"
 )
 
 // IMPORTANT: if any of these break then the libevm copy MUST be updated.

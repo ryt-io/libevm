@@ -19,8 +19,8 @@ package legacypool
 import (
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/state"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/state"
 )
 
 // noncer is a tiny virtual state database to manage the executable nonces of

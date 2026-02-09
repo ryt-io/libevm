@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // NewTBLogHandler constructs a [slog.Handler] that propagates logs to [testing.TB].

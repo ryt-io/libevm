@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/params"
 )
 
 const (

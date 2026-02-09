@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/bitutil"
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/common/bitutil"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
-	"github.com/ryt-io/ryt-v2/params/forks"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/libevm/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

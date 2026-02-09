@@ -27,7 +27,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"

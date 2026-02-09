@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common/math"
+	"github.com/ryt-io/libevm/common/math"
 	"github.com/holiman/uint256"
 )
 

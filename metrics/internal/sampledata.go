@@ -22,7 +22,7 @@ import (
 	metrics2 "runtime/metrics"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // ExampleMetrics returns an ordered registry populated with a sample of metrics.

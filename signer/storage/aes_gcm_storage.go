@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 type storedCredential struct {

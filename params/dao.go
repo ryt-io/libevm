@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/p2p/netutil"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

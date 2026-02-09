@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

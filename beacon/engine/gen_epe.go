@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 var _ = (*executionPayloadEnvelopeMarshaling)(nil)

@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/libevm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

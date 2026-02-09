@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
-	cmath "github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/crypto/kzg4844"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	cmath "github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto/kzg4844"
+	"github.com/ryt-io/libevm/params"
 	"github.com/holiman/uint256"
 )
 

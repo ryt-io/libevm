@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 type testchain struct {

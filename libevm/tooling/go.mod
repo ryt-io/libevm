@@ -1,11 +1,11 @@
-module github.com/ryt-io/ryt-v2/libevm/tooling
+module github.com/ryt-io/libevm/libevm/tooling
 
 go 1.24.8
 
-replace github.com/ryt-io/ryt-v2 => ../../
+replace github.com/ryt-io/libevm => ../../
 
 require (
-	github.com/ryt-io/ryt-v2 v0.0.0-00010101000000-000000000000
+	github.com/ryt-io/libevm v0.0.0-00010101000000-000000000000
 	github.com/go-git/go-git/v5 v5.14.0
 	github.com/stretchr/testify v1.10.0
 )

@@ -25,14 +25,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/state"
-	"github.com/ryt-io/ryt-v2/core/state/snapshot"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/ethdb/memorydb"
-	"github.com/ryt-io/ryt-v2/libevm/ethtest"
-	"github.com/ryt-io/ryt-v2/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/state/snapshot"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb/memorydb"
+	"github.com/ryt-io/libevm/libevm/ethtest"
+	"github.com/ryt-io/libevm/triedb"
 )
 
 func TestGetSetExtra(t *testing.T) {

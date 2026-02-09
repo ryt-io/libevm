@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/node"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/simulations/adapters"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/node"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

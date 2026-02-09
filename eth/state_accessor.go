@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/state"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/eth/tracers"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/trie"
-	"github.com/ryt-io/ryt-v2/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/eth/tracers"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/trie"
+	"github.com/ryt-io/libevm/triedb"
 )
 
 // noopReleaser is returned in case there is no operation expected

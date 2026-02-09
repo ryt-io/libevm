@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/forkid"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/forkid"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/urfave/cli/v2"
 )
 

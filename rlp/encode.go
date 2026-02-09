@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ryt-io/ryt-v2/rlp/internal/rlpstruct"
+	"github.com/ryt-io/libevm/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

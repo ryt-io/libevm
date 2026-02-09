@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/nat"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/nat"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 const (

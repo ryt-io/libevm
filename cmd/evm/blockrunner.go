@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/eth/tracers/logger"
-	"github.com/ryt-io/ryt-v2/tests"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/eth/tracers/logger"
+	"github.com/ryt-io/libevm/tests"
 	"github.com/urfave/cli/v2"
 )
 

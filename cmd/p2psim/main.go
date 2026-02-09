@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/internal/flags"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/simulations"
-	"github.com/ryt-io/ryt-v2/p2p/simulations/adapters"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/internal/flags"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/simulations"
+	"github.com/ryt-io/libevm/p2p/simulations/adapters"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/urfave/cli/v2"
 )
 

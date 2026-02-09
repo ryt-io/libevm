@@ -19,8 +19,8 @@ package libevm
 import (
 	"github.com/holiman/uint256"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/libevm/stateconf"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm/stateconf"
 )
 
 // PrecompiledContract is an exact copy of vm.PrecompiledContract, mirrored here

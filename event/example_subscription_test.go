@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/event"
+	"github.com/ryt-io/libevm/event"
 )
 
 func ExampleNewSubscription() {

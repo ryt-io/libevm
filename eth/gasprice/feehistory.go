@@ -25,11 +25,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/consensus/misc/eip1559"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/consensus/misc/eip1559"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rpc"
 	"golang.org/x/exp/slices"
 )
 

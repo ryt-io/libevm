@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/params"
 )
 
 func u64(val uint64) *uint64 { return &val }

@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // NoopService is the service that does not do anything

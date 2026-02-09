@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/metrics/prometheus"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics/prometheus"
 )
 
 type exp struct {

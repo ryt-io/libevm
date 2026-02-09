@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/accounts/keystore"
-	"github.com/ryt-io/ryt-v2/cmd/utils"
+	"github.com/ryt-io/libevm/accounts/keystore"
+	"github.com/ryt-io/libevm/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

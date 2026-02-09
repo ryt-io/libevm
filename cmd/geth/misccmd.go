@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/internal/version"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/internal/version"
+	"github.com/ryt-io/libevm/params"
 	"github.com/urfave/cli/v2"
 )
 

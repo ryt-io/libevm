@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/metrics/internal"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics/internal"
 )
 
 func TestMain(m *testing.M) {

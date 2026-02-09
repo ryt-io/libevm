@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/eth/filters"
-	"github.com/ryt-io/ryt-v2/internal/ethapi"
-	"github.com/ryt-io/ryt-v2/node"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/eth/filters"
+	"github.com/ryt-io/libevm/internal/ethapi"
+	"github.com/ryt-io/libevm/node"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/graph-gophers/graphql-go"
 	gqlErrors "github.com/graph-gophers/graphql-go/errors"
 )

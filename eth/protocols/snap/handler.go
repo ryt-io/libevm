@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
-	"github.com/ryt-io/ryt-v2/trie"
-	"github.com/ryt-io/ryt-v2/trie/trienode"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/enr"
+	"github.com/ryt-io/libevm/trie"
+	"github.com/ryt-io/libevm/trie/trienode"
 )
 
 const (

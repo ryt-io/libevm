@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/internal/libevm/pseudo"
-	"github.com/ryt-io/ryt-v2/libevm"
-	"github.com/ryt-io/ryt-v2/libevm/register"
-	"github.com/ryt-io/ryt-v2/libevm/testonly"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/internal/libevm/pseudo"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm/register"
+	"github.com/ryt-io/libevm/libevm/testonly"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // RegisterExtras registers the type `HPtr` to be carried as an extra payload in

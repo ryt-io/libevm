@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/event"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/libevm/log"
 	"github.com/karalabe/usb"
 )
 

@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/crypto/secp256k1"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

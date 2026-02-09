@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

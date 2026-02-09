@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/params"
 )
 
 // LookupInstructionSet returns the instruction set for the fork configured by

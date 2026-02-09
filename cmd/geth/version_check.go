@@ -26,7 +26,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/jedisct1/go-minisign"
 	"github.com/urfave/cli/v2"
 )

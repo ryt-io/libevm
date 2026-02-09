@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/internal/version"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/internal/version"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/params"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 )

@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/eth/downloader"
-	"github.com/ryt-io/ryt-v2/eth/protocols/eth"
-	"github.com/ryt-io/ryt-v2/eth/protocols/snap"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/libevm/eth/downloader"
+	"github.com/ryt-io/libevm/eth/protocols/eth"
+	"github.com/ryt-io/libevm/eth/protocols/snap"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

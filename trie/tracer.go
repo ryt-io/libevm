@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

@@ -27,8 +27,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/ryt-io/ryt-v2/graphql/internal/graphiql"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/graphql/internal/graphiql"
+	"github.com/ryt-io/libevm/log"
 )
 
 // GraphiQL is an in-browser IDE for exploring GraphiQL APIs.

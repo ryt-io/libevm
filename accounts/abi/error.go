@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 type Error struct {

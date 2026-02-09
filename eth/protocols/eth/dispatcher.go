@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

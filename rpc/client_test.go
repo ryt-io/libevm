@@ -34,7 +34,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 func TestClientRequest(t *testing.T) {

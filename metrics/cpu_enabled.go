@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/consensus/ethash"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/consensus/ethash"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

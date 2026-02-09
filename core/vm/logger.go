@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

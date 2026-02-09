@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/accounts/keystore"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/accounts/keystore"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // Tests that the account management snippets work correctly.

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

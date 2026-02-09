@@ -19,7 +19,7 @@ package abi
 import (
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // PackEvent packs the given `args` to conform with the ABI for the specified

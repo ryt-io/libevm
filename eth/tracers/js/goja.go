@@ -24,12 +24,12 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/core/vm"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/eth/tracers"
-	jsassets "github.com/ryt-io/ryt-v2/eth/tracers/js/internal/tracers"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/eth/tracers"
+	jsassets "github.com/ryt-io/libevm/eth/tracers/js/internal/tracers"
 )
 
 var assetTracers = make(map[string]string)

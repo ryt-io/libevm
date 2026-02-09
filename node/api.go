@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/internal/debug"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/internal/debug"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

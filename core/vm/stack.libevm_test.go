@@ -21,7 +21,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 func TestMutableStack(t *testing.T) {

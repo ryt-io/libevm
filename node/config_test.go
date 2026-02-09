@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/ryt-io/ryt-v2/rlp"
+import "github.com/ryt-io/libevm/rlp"
 import "io"
 
 func (obj *StateAccount) EncodeRLP(_w io.Writer) error {

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/internal/ethapi"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/internal/ethapi"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 var (

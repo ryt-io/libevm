@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

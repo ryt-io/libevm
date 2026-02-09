@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi/bind"
-	"github.com/ryt-io/ryt-v2/cmd/utils"
-	"github.com/ryt-io/ryt-v2/common/compiler"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/internal/flags"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/cmd/utils"
+	"github.com/ryt-io/libevm/common/compiler"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/internal/flags"
+	"github.com/ryt-io/libevm/log"
 	"github.com/urfave/cli/v2"
 )
 

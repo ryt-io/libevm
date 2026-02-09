@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/ryt-io/ryt-v2/common/mclock"
+	"github.com/ryt-io/libevm/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

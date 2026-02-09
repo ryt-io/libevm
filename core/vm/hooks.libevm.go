@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/libevm"
-	"github.com/ryt-io/ryt-v2/libevm/register"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm/register"
+	"github.com/ryt-io/libevm/params"
 )
 
 // RegisterHooks registers the Hooks. It is expected to be called in an `init()`

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/forkid"
-	"github.com/ryt-io/ryt-v2/metrics"
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/forkid"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 const (

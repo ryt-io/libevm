@@ -22,9 +22,9 @@
 package remotedb
 
 import (
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/ethdb"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // Database is a key-value lookup for a remote database via debug_dbGet.

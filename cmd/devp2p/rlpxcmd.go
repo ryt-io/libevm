@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ryt-io/ryt-v2/cmd/devp2p/internal/ethtest"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/rlpx"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/cmd/devp2p/internal/ethtest"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/rlpx"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/urfave/cli/v2"
 )
 

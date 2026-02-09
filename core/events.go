@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

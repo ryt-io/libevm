@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/consensus/ethash"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/eth"
-	"github.com/ryt-io/ryt-v2/eth/ethconfig"
-	"github.com/ryt-io/ryt-v2/node"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/consensus/ethash"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/eth"
+	"github.com/ryt-io/libevm/eth/ethconfig"
+	"github.com/ryt-io/libevm/node"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // Verify that Client implements the ethereum interfaces.

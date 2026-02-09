@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/internal/testlog"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/netutil"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/internal/testlog"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

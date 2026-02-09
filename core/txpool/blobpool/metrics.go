@@ -16,7 +16,7 @@
 
 package blobpool
 
-import "github.com/ryt-io/ryt-v2/metrics"
+import "github.com/ryt-io/libevm/metrics"
 
 var (
 	// datacapGauge tracks the user's configured capacity for the blob pool. It

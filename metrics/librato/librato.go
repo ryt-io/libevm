@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/bitutil"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
+	"github.com/ryt-io/libevm/common/bitutil"
+	"github.com/ryt-io/libevm/core/rawdb"
 )
 
 const (

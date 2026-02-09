@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

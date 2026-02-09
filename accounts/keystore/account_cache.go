@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/log"
 	"golang.org/x/exp/slices"
 )
 

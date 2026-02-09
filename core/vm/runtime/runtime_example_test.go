@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/vm/runtime"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/vm/runtime"
 )
 
 func ExampleExecute() {

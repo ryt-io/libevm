@@ -16,7 +16,7 @@
 
 package pathdb
 
-import "github.com/ryt-io/ryt-v2/metrics"
+import "github.com/ryt-io/libevm/metrics"
 
 var (
 	cleanHitMeter   = metrics.NewRegisteredMeter("pathdb/clean/hit", nil)

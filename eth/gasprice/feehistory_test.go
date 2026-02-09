@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

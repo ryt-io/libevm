@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // Config are the configuration parameters of the blob transaction pool.

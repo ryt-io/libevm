@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

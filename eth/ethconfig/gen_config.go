@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/txpool/blobpool"
-	"github.com/ryt-io/ryt-v2/core/txpool/legacypool"
-	"github.com/ryt-io/ryt-v2/eth/downloader"
-	"github.com/ryt-io/ryt-v2/eth/gasprice"
-	"github.com/ryt-io/ryt-v2/miner"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/txpool/blobpool"
+	"github.com/ryt-io/libevm/core/txpool/legacypool"
+	"github.com/ryt-io/libevm/eth/downloader"
+	"github.com/ryt-io/libevm/eth/gasprice"
+	"github.com/ryt-io/libevm/miner"
 )
 
 // MarshalTOML marshals as TOML.

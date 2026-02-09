@@ -21,7 +21,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

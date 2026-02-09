@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/rawdb"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/trie/testutil"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/trie/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 )

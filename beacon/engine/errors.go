@@ -17,8 +17,8 @@
 package engine
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // EngineAPIError is a standardized error message between consensus and execution

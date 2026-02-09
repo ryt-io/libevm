@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common/hexutil"
+	"github.com/ryt-io/libevm/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

@@ -19,10 +19,10 @@ package main
 import (
 	"os"
 
-	"github.com/ryt-io/ryt-v2/cmd/devp2p/internal/v4test"
-	"github.com/ryt-io/ryt-v2/internal/flags"
-	"github.com/ryt-io/ryt-v2/internal/utesting"
-	"github.com/ryt-io/ryt-v2/log"
+	"github.com/ryt-io/libevm/cmd/devp2p/internal/v4test"
+	"github.com/ryt-io/libevm/internal/flags"
+	"github.com/ryt-io/libevm/internal/utesting"
+	"github.com/ryt-io/libevm/log"
 	"github.com/urfave/cli/v2"
 )
 

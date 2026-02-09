@@ -22,11 +22,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/trie/trienode"
-	"github.com/ryt-io/ryt-v2/triedb/database"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/trie/trienode"
+	"github.com/ryt-io/libevm/triedb/database"
 )
 
 // Trie is a Merkle Patricia Trie. Use New to create a trie that sits on

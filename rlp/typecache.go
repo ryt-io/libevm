@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ryt-io/ryt-v2/rlp/internal/rlpstruct"
+	"github.com/ryt-io/libevm/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

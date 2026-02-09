@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/p2p/enr"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/p2p/enr"
 )
 
 var (

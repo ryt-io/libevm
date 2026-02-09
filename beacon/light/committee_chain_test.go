@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/beacon/params"
-	"github.com/ryt-io/ryt-v2/beacon/types"
-	"github.com/ryt-io/ryt-v2/common/mclock"
-	"github.com/ryt-io/ryt-v2/ethdb/memorydb"
+	"github.com/ryt-io/libevm/beacon/params"
+	"github.com/ryt-io/libevm/beacon/types"
+	"github.com/ryt-io/libevm/common/mclock"
+	"github.com/ryt-io/libevm/ethdb/memorydb"
 )
 
 var (

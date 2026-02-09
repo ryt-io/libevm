@@ -53,10 +53,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/crypto/signify"
-	"github.com/ryt-io/ryt-v2/internal/build"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto/signify"
+	"github.com/ryt-io/libevm/internal/build"
+	"github.com/ryt-io/libevm/params"
 )
 
 var (
@@ -244,8 +244,8 @@ func doInstall(cmdline []string) {
 func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (flags []string) {
 	var ld []string
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/ryt-io/ryt-v2/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/ryt-io/ryt-v2/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/ryt-io/libevm/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/ryt-io/libevm/internal/version.gitDate="+env.Date)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.

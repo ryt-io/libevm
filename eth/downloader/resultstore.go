@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

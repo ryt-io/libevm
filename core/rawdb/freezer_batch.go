@@ -19,8 +19,8 @@ package rawdb
 import (
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/common/math"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/golang/snappy"
 )
 

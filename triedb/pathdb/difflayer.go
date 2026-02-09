@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/trie/trienode"
-	"github.com/ryt-io/ryt-v2/trie/triestate"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/trie/trienode"
+	"github.com/ryt-io/libevm/trie/triestate"
 )
 
 // diffLayer represents a collection of modifications made to the in-memory tries

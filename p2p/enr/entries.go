@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // Entry is implemented by known node record entry types.

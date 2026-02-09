@@ -22,16 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/eth"
-	"github.com/ryt-io/ryt-v2/eth/downloader"
-	"github.com/ryt-io/ryt-v2/eth/ethconfig"
-	"github.com/ryt-io/ryt-v2/node"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/eth"
+	"github.com/ryt-io/libevm/eth/downloader"
+	"github.com/ryt-io/libevm/eth/ethconfig"
+	"github.com/ryt-io/libevm/node"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/params"
 )
 
 func startSimulatedBeaconEthService(t *testing.T, genesis *core.Genesis) (*node.Node, *eth.Ethereum, *SimulatedBeacon) {

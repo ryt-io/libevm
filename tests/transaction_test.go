@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/params"
+	"github.com/ryt-io/libevm/params"
 )
 
 func TestTransaction(t *testing.T) {

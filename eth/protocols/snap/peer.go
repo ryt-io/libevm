@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/p2p"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

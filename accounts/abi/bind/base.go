@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto"
-	"github.com/ryt-io/ryt-v2/event"
+	"github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/event"
 )
 
 const basefeeWiggleMultiplier = 2

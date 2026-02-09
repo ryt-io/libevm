@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/ryt-io/ryt-v2/log"
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

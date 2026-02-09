@@ -19,9 +19,9 @@ package ethapi
 import (
 	"fmt"
 
-	"github.com/ryt-io/ryt-v2/accounts/abi"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/core/vm"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/vm"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

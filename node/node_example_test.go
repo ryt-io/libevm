@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ryt-io/ryt-v2/node"
+	"github.com/ryt-io/libevm/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

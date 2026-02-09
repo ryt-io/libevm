@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/ryt-io/ryt-v2/common/mclock"
+	"github.com/ryt-io/libevm/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

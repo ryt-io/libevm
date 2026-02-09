@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/core"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/params"
-	"github.com/ryt-io/ryt-v2/rlp"
-	"github.com/ryt-io/ryt-v2/tests"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/rlp"
+	"github.com/ryt-io/libevm/tests"
 	"github.com/urfave/cli/v2"
 )
 

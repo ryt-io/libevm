@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/ryt-io/ryt-v2/rlp"
+	"github.com/ryt-io/libevm/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

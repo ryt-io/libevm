@@ -19,8 +19,8 @@ package beacon
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2/consensus"
-	"github.com/ryt-io/ryt-v2/core/types"
+	"github.com/ryt-io/libevm/consensus"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // NewFaker creates a fake consensus engine for testing.

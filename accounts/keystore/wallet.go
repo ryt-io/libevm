@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ryt-io/ryt-v2"
-	"github.com/ryt-io/ryt-v2/accounts"
-	"github.com/ryt-io/ryt-v2/core/types"
-	"github.com/ryt-io/ryt-v2/crypto"
+	"github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

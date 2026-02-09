@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/ryt-io/ryt-v2/metrics"
+import "github.com/ryt-io/libevm/metrics"
 
 var (
 	accountUpdatedMeter      = metrics.NewRegisteredMeter("state/update/account", nil)

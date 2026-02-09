@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/accounts/keystore"
-	"github.com/ryt-io/ryt-v2/common"
-	"github.com/ryt-io/ryt-v2/console/prompt"
-	"github.com/ryt-io/ryt-v2/p2p/dnsdisc"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
+	"github.com/ryt-io/libevm/accounts/keystore"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/console/prompt"
+	"github.com/ryt-io/libevm/p2p/dnsdisc"
+	"github.com/ryt-io/libevm/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

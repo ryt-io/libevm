@@ -30,11 +30,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ryt-io/ryt-v2/event"
-	"github.com/ryt-io/ryt-v2/p2p"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/simulations/adapters"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/libevm/p2p"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/simulations/adapters"
+	"github.com/ryt-io/libevm/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
 )

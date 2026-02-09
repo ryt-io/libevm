@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/ryt-io/ryt-v2/accounts/scwallet"
-	"github.com/ryt-io/ryt-v2/accounts/usbwallet"
-	"github.com/ryt-io/ryt-v2/common/hexutil"
-	"github.com/ryt-io/ryt-v2/console/prompt"
-	"github.com/ryt-io/ryt-v2/internal/jsre"
-	"github.com/ryt-io/ryt-v2/rpc"
+	"github.com/ryt-io/libevm/accounts/scwallet"
+	"github.com/ryt-io/libevm/accounts/usbwallet"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/console/prompt"
+	"github.com/ryt-io/libevm/internal/jsre"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

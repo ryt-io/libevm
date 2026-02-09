@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ryt-io/ryt-v2/internal/utesting"
-	"github.com/ryt-io/ryt-v2/p2p/discover/v5wire"
-	"github.com/ryt-io/ryt-v2/p2p/enode"
-	"github.com/ryt-io/ryt-v2/p2p/netutil"
+	"github.com/ryt-io/libevm/internal/utesting"
+	"github.com/ryt-io/libevm/p2p/discover/v5wire"
+	"github.com/ryt-io/libevm/p2p/enode"
+	"github.com/ryt-io/libevm/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

@@ -23,7 +23,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ryt-io/ryt-v2/ethdb"
+	"github.com/ryt-io/libevm/ethdb"
 	"golang.org/x/exp/slices"
 )
 
